@@ -9,3 +9,720 @@
 2024/07/11 15:17:34 [error] 6952#6256: *6 CreateFile() "C:\Users\Administrator\Downloads\nginx-1.27.0\nginx-1.27.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.10.35, server: dcmmloia.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.10.151:8000", referrer: "http://192.168.10.151:8000/"
 2024/07/11 15:17:54 [error] 6952#6256: *7 CreateFile() "C:\Users\Administrator\Downloads\nginx-1.27.0\nginx-1.27.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.10.37, server: dcmmloia.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.10.151:8000", referrer: "http://192.168.10.151:8000/"
 2024/07/12 13:11:49 [error] 6320#4284: *1 CreateFile() "C:\Users\Administrator\Downloads\nginx-1.27.0\nginx-1.27.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.10.102, server: dcmmloia.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.10.151:8000", referrer: "http://192.168.10.151:8000/"
+2024/07/13 16:09:55 [emerg] 18680#7800: CreateDirectory() "C:\Users\nguye\Downloads\LT_Web_Server/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/07/13 16:11:13 [emerg] 2116#18292: CreateDirectory() "C:\Users\nguye\Downloads\LT_Web_Server/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/07/13 16:12:33 [emerg] 20236#20244: CreateDirectory() "C:\Users\nguye\Downloads\LT_Web_Server/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/07/13 16:14:12 [emerg] 18196#18996: CreateDirectory() "C:\Users\nguye\Downloads\LT_Web_Server/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/07/13 16:14:42 [emerg] 20392#9956: CreateDirectory() "C:\Users\nguye\Downloads\LT_Web_Server/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/07/13 16:15:32 [emerg] 2964#2280: CreateDirectory() "C:\Users\nguye\Downloads\LT_Web_Server/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2024/07/13 16:18:30 [crit] 20452#11268: *1 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:18:30 [crit] 20452#11268: *2 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:28 [crit] 20452#11268: *3 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:28 [crit] 20452#11268: *4 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:29 [crit] 20452#11268: *5 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:29 [crit] 20452#11268: *6 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:29 [crit] 20452#11268: *7 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:29 [crit] 20452#11268: *8 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:29 [crit] 20452#11268: *9 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:29 [crit] 20452#11268: *10 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:30 [crit] 20452#11268: *11 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:30 [crit] 20452#11268: *12 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:30 [crit] 20452#11268: *13 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:30 [crit] 20452#11268: *14 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:30 [crit] 20452#11268: *15 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:30 [crit] 20452#11268: *16 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:30 [crit] 20452#11268: *17 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:30 [crit] 20452#11268: *18 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:30 [crit] 20452#11268: *19 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:30 [crit] 20452#11268: *20 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:30 [crit] 20452#11268: *21 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:19:30 [crit] 20452#11268: *22 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:19:55 [emerg] 17024#6732: unknown directive "login" in C:\Users\nguye\Downloads\LT_Web_Server/conf/nginx.conf:45
+2024/07/13 16:20:37 [emerg] 3756#16668: unknown directive "login" in C:\Users\nguye\Downloads\LT_Web_Server/conf/nginx.conf:45
+2024/07/13 16:21:03 [crit] 1416#18180: *1 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:04 [crit] 1416#18180: *2 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:17 [crit] 1416#18180: *3 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:17 [crit] 1416#18180: *4 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:18 [crit] 1416#18180: *5 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:18 [crit] 1416#18180: *6 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:18 [crit] 1416#18180: *7 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:18 [crit] 1416#18180: *8 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:18 [crit] 1416#18180: *9 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:18 [crit] 1416#18180: *10 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:18 [crit] 1416#18180: *11 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:18 [crit] 1416#18180: *12 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:18 [crit] 1416#18180: *13 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:18 [crit] 1416#18180: *14 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:19 [crit] 1416#18180: *15 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:19 [crit] 1416#18180: *16 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:19 [crit] 1416#18180: *17 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:19 [crit] 1416#18180: *18 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:19 [crit] 1416#18180: *19 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:19 [crit] 1416#18180: *20 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:19 [crit] 1416#18180: *21 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:19 [crit] 1416#18180: *22 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:19 [crit] 1416#18180: *23 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:19 [crit] 1416#18180: *24 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:20 [crit] 1416#18180: *25 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:20 [crit] 1416#18180: *26 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:20 [crit] 1416#18180: *27 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:20 [crit] 1416#18180: *28 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:20 [crit] 1416#18180: *29 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:20 [crit] 1416#18180: *30 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:23 [crit] 1416#18180: *31 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:23 [crit] 1416#18180: *32 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:23 [crit] 1416#18180: *33 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:23 [crit] 1416#18180: *34 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:23 [crit] 1416#18180: *35 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:23 [crit] 1416#18180: *36 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:23 [crit] 1416#18180: *37 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:23 [crit] 1416#18180: *38 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:23 [crit] 1416#18180: *39 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:23 [crit] 1416#18180: *40 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:23 [crit] 1416#18180: *41 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:24 [crit] 1416#18180: *42 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:29 [crit] 1416#18180: *43 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:29 [crit] 1416#18180: *44 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:29 [crit] 1416#18180: *45 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:29 [crit] 1416#18180: *46 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:29 [crit] 1416#18180: *47 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:29 [crit] 1416#18180: *48 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:32 [crit] 1416#18180: *49 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:32 [crit] 1416#18180: *50 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:32 [crit] 1416#18180: *51 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:32 [crit] 1416#18180: *52 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:33 [crit] 1416#18180: *53 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:33 [crit] 1416#18180: *54 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:33 [crit] 1416#18180: *55 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:33 [crit] 1416#18180: *56 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:33 [crit] 1416#18180: *57 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:33 [crit] 1416#18180: *58 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:33 [crit] 1416#18180: *59 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:33 [crit] 1416#18180: *60 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:33 [crit] 1416#18180: *61 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:33 [crit] 1416#18180: *62 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:33 [crit] 1416#18180: *63 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:34 [crit] 1416#18180: *64 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:34 [crit] 1416#18180: *65 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:34 [crit] 1416#18180: *66 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:34 [crit] 1416#18180: *67 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:34 [crit] 1416#18180: *68 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:34 [crit] 1416#18180: *69 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:34 [crit] 1416#18180: *70 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:34 [crit] 1416#18180: *71 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:34 [crit] 1416#18180: *72 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:21:34 [crit] 1416#18180: *73 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:21:34 [crit] 1416#18180: *74 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:25 [crit] 1416#18180: *75 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:25 [crit] 1416#18180: *76 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:26 [crit] 1416#18180: *77 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:26 [crit] 1416#18180: *78 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:26 [crit] 1416#18180: *79 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:26 [crit] 1416#18180: *80 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:26 [crit] 1416#18180: *81 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:26 [crit] 1416#18180: *82 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:44 [crit] 17152#15904: *1 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:44 [crit] 17152#15904: *2 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:45 [crit] 17152#15904: *3 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:45 [crit] 17152#15904: *4 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *5 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *6 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *7 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *8 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *9 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *10 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *11 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *12 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *13 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *14 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *15 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *16 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:46 [crit] 17152#15904: *17 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:46 [crit] 17152#15904: *18 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:47 [crit] 17152#15904: *19 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:47 [crit] 17152#15904: *20 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:47 [crit] 17152#15904: *21 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:47 [crit] 17152#15904: *22 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:47 [crit] 17152#15904: *23 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:47 [crit] 17152#15904: *24 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:48 [crit] 17152#15904: *25 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:48 [crit] 17152#15904: *26 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:48 [crit] 17152#15904: *27 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:48 [crit] 17152#15904: *28 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:48 [crit] 17152#15904: *29 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:48 [crit] 17152#15904: *30 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:48 [crit] 17152#15904: *31 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:48 [crit] 17152#15904: *32 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:50 [crit] 17152#15904: *33 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:50 [crit] 17152#15904: *34 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:22:51 [crit] 17152#15904: *35 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:22:51 [crit] 17152#15904: *36 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:23:01 [crit] 17152#15904: *37 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:23:01 [crit] 17152#15904: *38 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:23:02 [crit] 17152#15904: *39 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:23:02 [crit] 17152#15904: *40 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:23:02 [crit] 17152#15904: *41 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:23:02 [crit] 17152#15904: *42 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:23:02 [crit] 17152#15904: *43 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:23:02 [crit] 17152#15904: *44 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:23:02 [crit] 17152#15904: *45 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:23:02 [crit] 17152#15904: *46 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:23:31 [crit] 17152#15904: *47 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 153.239.4.15, server: coc.com, request: "GET / HTTP/1.0", host: "127.0.0.1"
+2024/07/13 16:24:28 [crit] 4272#14080: *1 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:28 [crit] 4272#14080: *2 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:29 [crit] 4272#14080: *3 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:29 [crit] 4272#14080: *4 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:29 [crit] 4272#14080: *5 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:29 [crit] 4272#14080: *6 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:29 [crit] 4272#14080: *7 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:29 [crit] 4272#14080: *8 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:29 [crit] 4272#14080: *9 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:29 [crit] 4272#14080: *10 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:30 [crit] 4272#14080: *11 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:30 [crit] 4272#14080: *12 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:31 [crit] 4272#14080: *13 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:31 [crit] 4272#14080: *14 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:32 [crit] 4272#14080: *15 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:32 [crit] 4272#14080: *16 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:32 [crit] 4272#14080: *17 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:33 [crit] 4272#14080: *18 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:33 [crit] 4272#14080: *19 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:33 [crit] 4272#14080: *20 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:33 [crit] 4272#14080: *21 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:33 [crit] 4272#14080: *22 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:33 [crit] 4272#14080: *23 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:33 [crit] 4272#14080: *24 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:33 [crit] 4272#14080: *25 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:33 [crit] 4272#14080: *26 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:33 [crit] 4272#14080: *27 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:33 [crit] 4272#14080: *28 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:34 [crit] 4272#14080: *29 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:34 [crit] 4272#14080: *30 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:34 [crit] 4272#14080: *31 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251:8000"
+2024/07/13 16:24:34 [crit] 4272#14080: *32 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:24:43 [crit] 4272#14080: *33 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251:8000", referrer: "http://192.168.1.251:8000/"
+2024/07/13 16:25:18 [crit] 5660#2252: *1 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:18 [crit] 5660#2252: *2 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:18 [crit] 5660#2252: *3 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:18 [crit] 5660#2252: *4 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:19 [crit] 5660#2252: *5 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:19 [crit] 5660#2252: *6 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:19 [crit] 5660#2252: *7 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:19 [crit] 5660#2252: *8 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:19 [crit] 5660#2252: *9 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:19 [crit] 5660#2252: *10 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:19 [crit] 5660#2252: *11 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:19 [crit] 5660#2252: *12 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:19 [crit] 5660#2252: *13 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:19 [crit] 5660#2252: *14 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:19 [crit] 5660#2252: *15 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:19 [crit] 5660#2252: *16 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:20 [crit] 5660#2252: *17 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:20 [crit] 5660#2252: *18 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:20 [crit] 5660#2252: *19 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:20 [crit] 5660#2252: *20 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:20 [crit] 5660#2252: *21 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:20 [crit] 5660#2252: *22 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:20 [crit] 5660#2252: *23 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:20 [crit] 5660#2252: *24 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:21 [crit] 5660#2252: *25 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:21 [crit] 5660#2252: *26 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:21 [crit] 5660#2252: *27 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:21 [crit] 5660#2252: *28 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:48 [crit] 5660#2252: *29 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:48 [crit] 5660#2252: *30 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:48 [crit] 5660#2252: *31 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:48 [crit] 5660#2252: *32 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *33 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *34 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *35 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *36 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *37 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *38 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *39 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *40 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *41 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *42 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *43 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *44 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:49 [crit] 5660#2252: *45 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:49 [crit] 5660#2252: *46 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:50 [crit] 5660#2252: *47 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:50 [crit] 5660#2252: *48 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:50 [crit] 5660#2252: *49 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:50 [crit] 5660#2252: *50 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:50 [crit] 5660#2252: *51 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:50 [crit] 5660#2252: *52 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:50 [crit] 5660#2252: *53 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:50 [crit] 5660#2252: *54 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:51 [crit] 5660#2252: *55 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:51 [crit] 5660#2252: *56 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:51 [crit] 5660#2252: *57 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:51 [crit] 5660#2252: *58 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:51 [crit] 5660#2252: *59 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:51 [crit] 5660#2252: *60 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:51 [crit] 5660#2252: *61 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:51 [crit] 5660#2252: *62 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:51 [crit] 5660#2252: *63 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:51 [crit] 5660#2252: *64 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:51 [crit] 5660#2252: *65 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:51 [crit] 5660#2252: *66 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:52 [crit] 5660#2252: *67 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:52 [crit] 5660#2252: *68 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:52 [crit] 5660#2252: *69 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:52 [crit] 5660#2252: *70 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:52 [crit] 5660#2252: *71 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:52 [crit] 5660#2252: *72 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:52 [crit] 5660#2252: *73 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:52 [crit] 5660#2252: *74 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:53 [crit] 5660#2252: *75 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:53 [crit] 5660#2252: *76 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:53 [crit] 5660#2252: *77 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:53 [crit] 5660#2252: *78 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:53 [crit] 5660#2252: *79 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:53 [crit] 5660#2252: *80 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:54 [crit] 5660#2252: *81 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:54 [crit] 5660#2252: *82 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:55 [crit] 5660#2252: *83 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:55 [crit] 5660#2252: *84 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:55 [crit] 5660#2252: *85 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:55 [crit] 5660#2252: *86 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:55 [crit] 5660#2252: *87 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:55 [crit] 5660#2252: *88 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:55 [crit] 5660#2252: *89 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:55 [crit] 5660#2252: *90 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:25:55 [crit] 5660#2252: *91 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:25:55 [crit] 5660#2252: *92 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:17 [crit] 4272#20268: *1 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:17 [crit] 4272#20268: *2 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:17 [crit] 4272#20268: *3 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:17 [crit] 4272#20268: *4 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:17 [crit] 4272#20268: *5 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:17 [crit] 4272#20268: *6 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:18 [crit] 4272#20268: *7 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:18 [crit] 4272#20268: *8 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:18 [crit] 4272#20268: *9 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:18 [crit] 4272#20268: *10 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:18 [crit] 4272#20268: *11 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:18 [crit] 4272#20268: *12 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:18 [crit] 4272#20268: *13 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:18 [crit] 4272#20268: *14 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:18 [crit] 4272#20268: *15 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:18 [crit] 4272#20268: *16 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:19 [crit] 4272#20268: *17 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:19 [crit] 4272#20268: *18 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:19 [crit] 4272#20268: *19 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:19 [crit] 4272#20268: *20 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:19 [crit] 4272#20268: *21 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:19 [crit] 4272#20268: *22 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:19 [crit] 4272#20268: *23 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:19 [crit] 4272#20268: *24 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:19 [crit] 4272#20268: *25 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:19 [crit] 4272#20268: *26 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:20 [crit] 4272#20268: *27 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:20 [crit] 4272#20268: *28 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:20 [crit] 4272#20268: *29 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:20 [crit] 4272#20268: *30 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:20 [crit] 4272#20268: *31 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:20 [crit] 4272#20268: *32 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:20 [crit] 4272#20268: *33 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:20 [crit] 4272#20268: *34 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:21 [crit] 4272#20268: *35 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:21 [crit] 4272#20268: *36 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:21 [crit] 4272#20268: *37 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:21 [crit] 4272#20268: *38 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:21 [crit] 4272#20268: *39 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:21 [crit] 4272#20268: *40 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:21 [crit] 4272#20268: *41 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:21 [crit] 4272#20268: *42 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:22 [crit] 4272#20268: *43 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:22 [crit] 4272#20268: *44 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:22 [crit] 4272#20268: *45 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:22 [crit] 4272#20268: *46 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:22 [crit] 4272#20268: *47 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:22 [crit] 4272#20268: *48 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:22 [crit] 4272#20268: *49 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:22 [crit] 4272#20268: *50 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:22 [crit] 4272#20268: *51 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:22 [crit] 4272#20268: *52 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:23 [crit] 4272#20268: *53 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:23 [crit] 4272#20268: *54 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:23 [crit] 4272#20268: *55 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:23 [crit] 4272#20268: *56 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:23 [crit] 4272#20268: *57 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:23 [crit] 4272#20268: *58 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:23 [crit] 4272#20268: *59 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:23 [crit] 4272#20268: *60 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:24 [crit] 4272#20268: *61 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:24 [crit] 4272#20268: *62 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:24 [crit] 4272#20268: *63 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:24 [crit] 4272#20268: *64 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:25 [crit] 4272#20268: *65 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:25 [crit] 4272#20268: *66 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:25 [crit] 4272#20268: *67 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:25 [crit] 4272#20268: *68 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:25 [crit] 4272#20268: *69 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:25 [crit] 4272#20268: *70 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:25 [crit] 4272#20268: *71 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:25 [crit] 4272#20268: *72 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:25 [crit] 4272#20268: *73 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:25 [crit] 4272#20268: *74 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:44 [crit] 4272#20268: *75 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:44 [crit] 4272#20268: *76 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 16:26:44 [crit] 4272#20268: *77 GetFileAttributesEx() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET / HTTP/1.1", host: "192.168.1.251"
+2024/07/13 16:26:44 [crit] 4272#20268: *78 CreateFile() "C:\Users
+guye\Downloads\LT_Web_Server\html\my-project/favicon.ico" failed (123: The filename, directory name, or volume label syntax is incorrect), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"
+2024/07/13 23:51:05 [error] 3892#12080: *2 CreateFile() "C:\Users\nguye\Downloads\LT_Web_Server/html/favicon.ico" failed (2: The system cannot find the file specified), client: 192.168.1.251, server: coc.com, request: "GET /favicon.ico HTTP/1.1", host: "192.168.1.251", referrer: "http://192.168.1.251/"

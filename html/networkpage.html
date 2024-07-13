@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Automations</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .network-status, .resource-usage {
+            margin-bottom: 20px;
+        }
+        .network-toggle {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <section class="myheader bg-primary text-white text-center py-3">
+        <h3>Welcome to My Website</h3>
+    </section>
+
+    <!-- Main Menu Section -->
+    <section class="mymainmenu bg-light py-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">ICON</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="borrowpage.html">Borrow Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="networkpage.html">Network Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="accountpage.html">Account Management</a>
+                        </li>
+                    </ul>
+                    <a class="btn btn-outline-danger ms-auto" type="button" href="login.html">Logout</a>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Main Content Section -->
+    <section class="mymaincontent container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Network Management</h2>
+                <div class="network-status">
+                    <h4>Current Network Status</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">IP Address: 192.168.1.1</li>
+                        <li class="list-group-item">Subnet Mask: 255.255.255.0</li>
+                        <li class="list-group-item">Default Gateway: 192.168.1.254</li>
+                        <li class="list-group-item">DNS Server: 8.8.8.8</li>
+                    </ul>
+                </div>
+                <div class="resource-usage">
+                    <h4>Resource Usage</h4>
+                    <ul class="list-group">
+                        <li class="list-group-item">Bandwidth: <span id="bandwidthValue">50</span> Mbps</li>
+                        <li class="list-group-item">Connected Devices: <span id="devicesValue">12</span></li>
+                        <li class="list-group-item">Network Uptime: <span id="uptimeValue">99.9</span>%</li>
+                    </ul>
+                </div>
+                <div class="network-toggle">
+                    <h4>Network Control</h4>
+                    <button id="toggleNetwork" class="btn btn-danger" onclick="showModal()">Turn Off Network</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h3>Resource Monitor</h3>
+                <div class="resource-usage">
+                    <h5>Bandwidth Usage</h5>
+                    <div class="progress mb-3">
+                        <div id="bandwidthProgress" class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50 Mbps</div>
+                    </div>
+                    <h5>Connected Devices</h5>
+                    <div class="progress mb-3">
+                        <div id="devicesProgress" class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">12 Devices</div>
+                    </div>
+                    <h5>Network Uptime</h5>
+                    <div class="progress">
+                        <div id="uptimeProgress" class="progress-bar bg-success" role="progressbar" style="width: 99.9%;" aria-valuenow="99.9" aria-valuemin="0" aria-valuemax="100">99.9%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered"> <!-- Add modal-dialog-centered class here -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmationModalLabel">Confirm Action</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to toggle the network?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="toggleNetwork()">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <section class="myfooter bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showModal() {
+            var confirmationModal = new bootstrap.Modal(document.getElementById('confirmationModal'), {});
+            confirmationModal.show();
+        }
+
+        function toggleNetwork() {
+            const button = document.getElementById('toggleNetwork');
+            if (button.classList.contains('btn-danger')) {
+                button.classList.remove('btn-danger');
+                button.classList.add('btn-success');
+                button.textContent = 'Turn On Network';
+            } else {
+                button.classList.remove('btn-success');
+                button.classList.add('btn-danger');
+                button.textContent = 'Turn Off Network';
+            }
+
+            var confirmationModal = bootstrap.Modal.getInstance(document.getElementById('confirmationModal'));
+            confirmationModal.hide();
+        }
+
+        // Function to simulate dynamic updates
+        setInterval(() => {
+            const bandwidth = Math.floor(Math.random() * 100);
+            const devices = Math.floor(Math.random() * 20);
+            const uptime = (Math.random() * 100).toFixed(1);
+
+            // Update progress bars
+            document.getElementById('bandwidthProgress').style.width = bandwidth + '%';
+            document.getElementById('bandwidthProgress').textContent = bandwidth + ' Mbps';
+            document.getElementById('bandwidthValue').textContent = bandwidth;
+
+            document.getElementById('devicesProgress').style.width = devices + '%';
+            document.getElementById('devicesProgress').textContent = devices + ' Devices';
+            document.getElementById('devicesValue').textContent = devices;
+
+            document.getElementById('uptimeProgress').style.width = uptime + '%';
+            document.getElementById('uptimeProgress').textContent = uptime + '%';
+            document.getElementById('uptimeValue').textContent = uptime;
+        }, 3000); // Update every 3 seconds
+    </script>
+</body>
+</html>
