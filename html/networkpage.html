@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,98 +8,118 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <style>
-        .network-status, .resource-usage {
+        .network-status,
+        .resource-usage {
             margin-bottom: 20px;
         }
+
         .network-toggle {
             margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
     <!-- Header Section -->
-    <section class="myheader bg-primary text-white text-center py-3">
+    <!-- <section class="myheader bg-primary text-white text-center py-3">
         <h3>Welcome to My Website</h3>
-    </section>
+    </section> -->
 
-    <!-- Main Menu Section -->
-    <section class="mymainmenu bg-light py-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">ICON</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand me-auto" href="#">LOGO</a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">LOGO</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link mx-lg-2" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="borrowpage.html">Borrow Management</a>
+                            <a class="nav-link mx-lg-2" href="borrowpage.html">Borrow Management</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="networkpage.html">Network Management</a>
+                            <a class="nav-link mx-lg-2 active" aria-current="page" href="networkpage.html">Network Management</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="accountpage.html">Account Management</a>
+                            <a class="nav-link mx-lg-2" href="accountpage.html">Account Management</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="#">Link</a>
                         </li>
                     </ul>
-                    <a class="btn btn-outline-danger ms-auto" type="button" href="login.html">Logout</a>
                 </div>
             </div>
-        </nav>
-    </section>
+            <a href="login.html" class="login-button">Login</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!-- End navbar -->
 
-    <!-- Main Content Section -->
-    <section class="mymaincontent container my-5">
-        <div class="row">
-            <div class="col-md-8">
-                <h2>Network Management</h2>
-                <div class="network-status">
-                    <h4>Current Network Status</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">IP Address: 192.168.1.1</li>
-                        <li class="list-group-item">Subnet Mask: 255.255.255.0</li>
-                        <li class="list-group-item">Default Gateway: 192.168.1.254</li>
-                        <li class="list-group-item">DNS Server: 8.8.8.8</li>
-                    </ul>
-                </div>
-                <div class="resource-usage">
-                    <h4>Resource Usage</h4>
-                    <ul class="list-group">
-                        <li class="list-group-item">Bandwidth: <span id="bandwidthValue">50</span> Mbps</li>
-                        <li class="list-group-item">Connected Devices: <span id="devicesValue">12</span></li>
-                        <li class="list-group-item">Network Uptime: <span id="uptimeValue">99.9</span>%</li>
-                    </ul>
-                </div>
-                <div class="network-toggle">
-                    <h4>Network Control</h4>
-                    <button id="toggleNetwork" class="btn btn-danger" onclick="showModal()">Turn Off Network</button>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <h3>Resource Monitor</h3>
-                <div class="resource-usage">
-                    <h5>Bandwidth Usage</h5>
-                    <div class="progress mb-3">
-                        <div id="bandwidthProgress" class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50 Mbps</div>
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="mymaincontent container align-items-center justify-content-center text-white my-5">
+                <div class="row">
+                    <div class="col-7">
+                        <h2>Network Management</h2>
+                        <div class="network-status">
+                            <h4>Current Network Status</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">IP Address: 192.168.1.1</li>
+                                <li class="list-group-item">Subnet Mask: 255.255.255.0</li>
+                                <li class="list-group-item">Default Gateway: 192.168.1.254</li>
+                                <li class="list-group-item">DNS Server: 8.8.8.8</li>
+                            </ul>
+                        </div>
+                        <div class="resource-usage">
+                            <h4>Resource Usage</h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">Bandwidth: <span id="bandwidthValue">50</span> Mbps</li>
+                                <li class="list-group-item">Connected Devices: <span id="devicesValue">12</span></li>
+                                <li class="list-group-item">Network Uptime: <span id="uptimeValue">99.9</span>%</li>
+                            </ul>
+                        </div>
+                        <div class="network-toggle">
+                            <h4>Network Control</h4>
+                            <button id="toggleNetwork" class="btn btn-danger" onclick="showModal()">Turn Off Network</button>
+                        </div>
                     </div>
-                    <h5>Connected Devices</h5>
-                    <div class="progress mb-3">
-                        <div id="devicesProgress" class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">12 Devices</div>
-                    </div>
-                    <h5>Network Uptime</h5>
-                    <div class="progress">
-                        <div id="uptimeProgress" class="progress-bar bg-success" role="progressbar" style="width: 99.9%;" aria-valuenow="99.9" aria-valuemin="0" aria-valuemax="100">99.9%</div>
+                    <div class="col-5">
+                        <h2>Resource Monitor</h2>
+                        <div class="resource-usage">
+                            <h4>Bandwidth Usage</h4>
+                            <div class="progress mb-3">
+                                <div id="bandwidthProgress" class="progress-bar" role="progressbar" style="width: 50%;"
+                                    aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50 Mbps</div>
+                            </div>
+                            <h4>Connected Devices</h4>
+                            <div class="progress mb-3">
+                                <div id="devicesProgress" class="progress-bar bg-info" role="progressbar" style="width: 60%;"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">12 Devices</div>
+                            </div>
+                            <h4>Network Uptime</h4>
+                            <div class="progress">
+                                <div id="uptimeProgress" class="progress-bar bg-success" role="progressbar"
+                                    style="width: 99.9%;" aria-valuenow="99.9" aria-valuemin="0" aria-valuemax="100">99.9%</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </div>
     </section>
+    <!-- End hero section -->
 
     <!-- Modal -->
-    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="confirmationModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered"> <!-- Add modal-dialog-centered class here -->
             <div class="modal-content">
                 <div class="modal-header">
@@ -165,4 +186,5 @@
         }, 3000); // Update every 3 seconds
     </script>
 </body>
+
 </html>

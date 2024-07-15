@@ -1,0 +1,26 @@
+
+
+/* mainmenu */
+.nav-link {
+    margin: 0px 3px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #007bff; /* Change to your preferred hover color */
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.btn-outline-danger {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545; /* Change to your preferred hover color */
+    color: white;
+}
